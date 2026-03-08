@@ -1,0 +1,13 @@
+{
+    "graphs": {
+        "workflow": "./graph.py:workflow"
+    },
+    "env": "./.env",
+    "python_version": "3.13",
+    "dependencies": [
+        "."
+    ],
+    "http": {
+        "app": "./webapp.py:app"
+    }
+}
