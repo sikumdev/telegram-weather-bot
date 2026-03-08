@@ -1,15 +1,3 @@
-# 최소 조건
-
-1. 텔레그램 봇과 대화 시작
-2. 날씨를 물어봄
-    1. ngrok 서버로 webhook 날라감
-    2. ngrok  -> langgraph dev 서버로 요청 보냄 (localhost:2024)
-    3. langgraph dev 서버가 llm으로 답변 생성
-        1. OpenWeatherAPI로 날씨 정도는 답변할 수 있도록 tool 세팅
-    4. telegram API로 메시지 전송
-3. 날씨를 알려줌
-
-
 # 🌤️ 날씨 텔레그램 봇
 
 텔레그램에서 날씨를 물어보면 AI가 답변해주는 봇입니다.  
